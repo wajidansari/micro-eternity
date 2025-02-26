@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
 export default function Home() {
+  return <h1>Welcome to Micro Eternity</h1>;
+}
+
   const [chatInput, setChatInput] = useState("");
   const [chatLog, setChatLog] = useState([]);
 
